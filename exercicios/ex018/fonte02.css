@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'ColaKind';
+    src: url(fonts/ColaKind.ttf) format('truetype'), url(fonts/ColaKind.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+    /* Tipod de Formato
+    opentype (otf)
+    truetype (ttf)
+    embedded-opentype
+    truetype-aat (Apple Advanced Typography)
+    svg
+    */
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, rgb(88, 88, 209), rgba(113, 113, 199, 0.644));
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'ColaKind',Times, serif;
+    font-size: 3em;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+p {
+    font-family: 'ColaKind', Times, serif;
+    color: rgba(0, 0, 0, 0.623);
+}
