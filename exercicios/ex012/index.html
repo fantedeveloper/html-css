@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Videos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo video hospedado localmente.</h1>
+    <p>Esse video está hospedado no meu próprio servidor.</p>
+
+    <video width="400" poster="images/limoes-capa.png" controls loop>
+        <source src="media/video01-p.mp4" type="video/mp4">
+        <source src="media/video01-p.m4v" type="video/mp4">
+        <source src="media/video01-p.webm" type="video/webm">
+        <source src="media/video01-p.ogg" type="video/ogg">
+    </video>
+
+    <h1>Inserindo video do Youtube</h1>
+    <p>Esse video está hospedado no Youtube</p>
+    <iframe width="400" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <h1>Inserindo video do Vimeo</h1>
+    <p>Esse video está hospedado no Vimeo</p>
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/265242392?h=44b95a049f" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</body>
+</html>
