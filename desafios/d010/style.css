@@ -138,7 +138,7 @@ aside {
 }
 
 aside > h3 {
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     font-family: var(--fonte-destaque);
     font-weight: 2em;
     color: white;
