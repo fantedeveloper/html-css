@@ -5,4 +5,4 @@
 
  Atualiza ai!
 
- <a href="https://fantedeveloper.github.io/html-css/exercicios/ex001"></a>
+ <a href="https://fantedeveloper.github.io/html-css/exercicios/ex001">Acessar o Exercicio 01</a>
