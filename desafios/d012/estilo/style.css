@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --fonte0: 'Passion One', cursive;
+    --fonte1: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    height: 200px;
+    text-align: center;
+}
+
+h1 {
+    font-family: var(--fonte0);
+    color: white;
+}
+
+.imagem {
+    background:  url(/desafios/d012/imagens/background001.jpg) left top no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+p {
+    background-color: rgba(17, 17, 17, 0.26);
+    color: white;
+   position: absolute;
+}
