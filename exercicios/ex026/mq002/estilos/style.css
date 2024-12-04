@@ -13,12 +13,10 @@ html, body {
     width: 100vw;
     height: 100vh;
     background-color: rgb(39, 64, 206);
-}
-
-body {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 
 h1 {
     color: white;
