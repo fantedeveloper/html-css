@@ -12,8 +12,13 @@ html {
     font-size: 1em;
 }
 
-header {
+body {
     background-color: rgb(204, 211, 219);
+}
+
+header {
+    background-color: rgb(176, 182, 189);
+    margin-bottom: 10px;
 }
 
 header > h1{
@@ -22,7 +27,7 @@ header > h1{
 
 menu > ul {
     list-style-type: none;
-    background-color: aquamarine;
+    background-color: rgb(176, 182, 189);
 }
 
 menu li {
@@ -36,4 +41,7 @@ article {
     width: 600px;
     display: block ;
     margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
 }
